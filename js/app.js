@@ -41,6 +41,10 @@ function displayServices(service) {
           <h5 class="card-title">Transport Mood ${service.vehichle}</h5>
           <p class="card-text">${service.description}</p>
           <p class="card-text"><small class="text-muted">Fare per Kilo: ${service.fareperkilo}</small>  <small class="text-muted">  Capacity: ${service.capasity}</small></p>
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Book Now
+</button>
         </div>
       </div>
     </div>
